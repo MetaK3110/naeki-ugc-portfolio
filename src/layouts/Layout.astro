@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Portfolio UGC Andrea Ojeda</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	@import "tailwindcss";
+
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #ffdcd5;
+		background-image: radial-gradient(circle at center, #cb6ce6, #ffdcd5);
+	}
+</style>
